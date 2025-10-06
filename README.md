@@ -2,7 +2,7 @@
 
 A Windows Forms application that receives and displays notification messages from a Firebird SQL Server.
 
-## Check NotifyClient for sending notifications to this panel
+### Check NotifyClient for sending notifications to this panel
 
 Firebird 3.0 User Defined Routine (UDR) for sending messages over TCP to the calling SQL client or any other IP client.
 
