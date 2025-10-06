@@ -1,0 +1,7 @@
+<Solution>
+  <Folder Name="/NotifySender_Test/">
+    <File Path="../NotifyClient/TestClient.cs" />
+  </Folder>
+  <Project Path="../NotifyClient/NotifySender.csproj" />
+  <Project Path="NotifyPanel.csproj" />
+</Solution>
