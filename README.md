@@ -2,11 +2,17 @@
 
 A Windows Forms application that receives and displays notification messages from a Firebird SQL Server.
 
-#### Check NotifyClient for sending notifications to this panel
+#### Check NotifyClient for sending notifications to NotifyPanel from Firebird SQL
 
 Firebird 3.0 User Defined Routine (UDR) for sending messages over TCP to the calling SQL client or any other IP client.
 
 https://github.com/huh66/NotifyClient
+
+#### Check NotifySend for sending notifications to NotifyPanel from Windows Command Line (NotifySend)
+
+A C# Windows command-line program for sending messages over TCP sockets.
+
+https://github.com/huh66/NotifySend
 
 ## Features
 
