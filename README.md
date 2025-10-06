@@ -84,4 +84,4 @@ dotnet run
 
 ## License
 
-Copyright (c) HUH, Stark Gummiwalzen GmbH
+Copyright (c) HUH
