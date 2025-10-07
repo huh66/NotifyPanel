@@ -87,8 +87,8 @@ namespace NotifyPanel
         private void InitializeCustomComponents()
         {
             // ListBox for messages
-            _listBox = new ListBox { Dock = DockStyle.Fill };
-            Controls.Add(_listBox);
+            //_listBox = new ListBox { Dock = DockStyle.Fill };
+            //Controls.Add(_listBox);
 
             // Context menuü
             _contextMenu = new ContextMenuStrip();
@@ -198,7 +198,7 @@ namespace NotifyPanel
 
         private void AddToList(Message msg)
         {
-            _listBox.Items.Add($"{DateTime.Now:G} | {msg.HEADER} | {msg.LEVEL} | {msg.SUBJECT} | {msg.REFERENZ} | {msg.MESSAGE}");
+            _listBox1.Items.Add($"{DateTime.Now:G} | {msg.HEADER} | {msg.LEVEL} | {msg.SUBJECT} | {msg.REFERENZ} | {msg.MESSAGE}");
         }
 
         private void LogMessage(Message msg)

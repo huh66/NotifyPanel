@@ -34,6 +34,7 @@
             einstellungenToolStripMenuItem = new ToolStripMenuItem();
             beendenToolStripMenuItem = new ToolStripMenuItem();
             toolStripMenuItem1 = new ToolStripMenuItem();
+            _listBox1 = new ListBox();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -74,11 +75,21 @@
             toolStripMenuItem1.Text = "?";
             toolStripMenuItem1.Click += toolStripMenuItem1_Click;
             // 
+            // _listBox1
+            // 
+            _listBox1.FormattingEnabled = true;
+            _listBox1.ItemHeight = 15;
+            _listBox1.Location = new Point(0, 23);
+            _listBox1.Name = "_listBox1";
+            _listBox1.Size = new Size(800, 424);
+            _listBox1.TabIndex = 3;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(_listBox1);
             Controls.Add(menuStrip1);
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Form1";
@@ -96,5 +107,6 @@
         private ToolStripMenuItem einstellungenToolStripMenuItem;
         private ToolStripMenuItem beendenToolStripMenuItem;
         private ToolStripMenuItem toolStripMenuItem1;
+        private ListBox _listBox1;
     }
 }
